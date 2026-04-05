@@ -1,0 +1,190 @@
+body {
+  background-color: #121212; 
+  color: #E0E0E0; 
+  font-family: 'Sedgwick Ave Display', cursive;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #FF3B3F; 
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FF3B3F; 
+}
+section {
+  background-color: #1E1E1E;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+.artes {
+  width: 500px; 
+  border-radius: 10%;
+  margin: 20px auto; 
+  text-align: center;
+  font-family: 'Sedgwick Ave', cursive;
+  color: #FF3B3F;
+}
+
+.artes img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.6;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.artes img:hover {
+  opacity: 1;
+}
+
+.artes p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #FFD700;
+}
+.rodape {
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: #121212;
+    color: #FF3B3F;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 1rem;
+    border-top: 2px solid #FFD700; 
+    position:static;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(255, 59, 63, 0.5);
+    user-select: none;
+  }
+
+  .rodape p {
+    margin: 0;
+    color: #FFD700; 
+    line-height: 1.4;
+  }
+.art-description {
+  font-family: 'Sedgwick Ave', cursive;
+  color: #FF3B3F;
+  margin-top: 10px;
+  font-size: 0.9rem; 
+  font-weight: bolder; 
+}
+.portrait-founders {
+   width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.portrait-founders img {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  display: block;
+}
+
+.portrait-founders img:hover {
+  opacity: 1;
+}
+
+.portrait-founders p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #FFD700;
+  text-align: center;
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.portrait-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 200px; 
+}
+
+.portrait-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; 
+  opacity: 0.6;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.portrait-item img:hover {
+  opacity: 1;
+}
+
+.portrait-item p {
+  margin: 0;
+  font-family: 'Sedgwick Ave', cursive;
+  color: #FFD700;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.portrait-influencers {
+  width: 350px;
+  height: auto;
+  border-radius: 10%;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border: 2px solid #5a0e0f;
+  border-style: solid;
+}
+.border-artes {
+ position: relative;
+  margin: 20px auto;
+  padding: 15px;
+  background: #1e1e1e; 
+  border: 8px solid #bfa06a; 
+  box-shadow:
+    0 0 15px rgba(191, 160, 106, 0.8), 
+    inset 0 0 10px rgba(255, 223, 0, 0.6);
+  border-radius: 12px; 
+}
+#fonte-legivel{
+    color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
